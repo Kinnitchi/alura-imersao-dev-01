@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+.inputs {
+  display: flex;
+  width: 15%;
+  height: 50%;
+  margin-top: 120px !important;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.input {
+  padding: 4px;
+}
+label,
+button {
+  color: #fff;
+  padding: 14px;
+  border-radius: 5px;
+  background-color: #0088ff;
+  margin: 0 4px;
+  border: none;
+}
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.notas {
+  width: 40px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f0f0f0;
+  padding: 12px 16px 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px !important;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.alura-logo {
+  width: 20%;
+  position: absolute;
+  top: 90%;
+  right: 10px;
+}
+
+.nota-img {
+  position: absolute;
+  display: flex;
+  width: 90px;
+  top: 0;
+  padding: 10px;
+}
